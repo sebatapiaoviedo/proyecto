@@ -1,0 +1,45 @@
+#nav-title {
+    font-family: 'Lobster', cursive;
+    font-size: 37pt;
+    margin-left: 10%;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+hr {
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+}
+
+ol {
+    top: 200px;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #373a3c;
+}
+
+@media (min-width: 992px) {
+    .title {
+        font-size: 35pt;
+        text-align: left;
+        text-transform: uppercase;
+        margin: 3%;
+    }
+
+    #principal-img {
+        max-width: 105%;
+    }
+
+    hr {
+        border: 1px solid black;
+        width: 100%;
+        text-align: center;
+    }
+}
